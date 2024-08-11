@@ -1,0 +1,533 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cart</title>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Oswald:wght@200..700&family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/venobox.min.css">
+    <link rel="stylesheet" href="css/slick.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive.css">
+</head>
+
+<body>
+<!-- backk to top button -->
+<button onclick="topFunction()" id="myBtn" title="Go to top">
+  <span class="arrow-up"></span>
+</button>
+
+
+
+<!-- nav start -->
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <div class="container">
+    <div class="quicktech-logoo">
+      <a href="index.html"><img class="logoss" src="images/logo.png" alt="Ready"></a>
+      <i class="fa-solid fa-magnifying-glass fa-fw search ll" style="margin-left: 10px; cursor: pointer;"></i>
+      <input type="text" class="form-control search-input" placeholder="Search...">
+  </div>
+      <div class="navbar-search">
+          <form class="d-flex">
+              <input class="form-control me-2" type="search" placeholder="Search for products..." aria-label="Search">
+              <button class="btn btn-outline-success pos" type="submit"><i class="fa-solid fa-magnifying-glass fa-fw quicktech-col"></i></button>
+          </form>
+      </div>
+      <div class="navbar-icons">
+          <ul class="navbar-nav pt-3 mb-2 mb-lg-0 c">
+              <li class="nav-item">
+                  <a class="nav-link" href="cart.html"><i class="fa-solid fa-cart-shopping d"></i></a>
+              </li>
+              <li class="nav-item">
+             
+                <div class="dropdown">
+                  <button class="btn btn-secondary dropdown-toggle quicktech-profile-btn" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    <a class="nav-link" href="profile.html"><i class="fa-solid fa-user d"></i></a>
+                  </button>
+                  <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="login.html">Login</a></li>
+                    <li><a class="dropdown-item" href="register.html">Register</a></li>
+
+                    <li><a class="dropdown-item" href="profile.html">Profile</a></li>
+                    <li><a class="dropdown-item" href="#">Logout</a></li>
+                  </ul>
+                </div>
+            </li>
+          </ul>
+      </div>
+  </div>
+</nav>
+ <!-- nav end -->
+
+ <!-- header menu -->
+ <nav class="navbar navbar-expand-lg bg-body-tertiary quicktech-drop">
+  <div class="container">
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav m-auto mb-2 mb-lg-0">
+        <div class="dropdown ">
+          <button class="dropbtn">Phone <i class="fa-solid fa-caret-down"></i></button>
+          <div class="dropdown-content">
+            <a href="categories.html">Iphone</a>
+            <a href="categories.html">Samsung</a>
+            <a href="categories.html">Redmi</a>
+          </div>
+        </div>
+        <div class="dropdown">
+          <button class="dropbtn">Tablet <i class="fa-solid fa-caret-down"></i></button>
+          <div class="dropdown-content">
+            <a href="categories.html">Samsung</a>
+            <a href="categories.html">Honor</a>
+            <a href="categories.html">redmi</a>
+          </div>
+        </div> 
+        <div class="dropdown">
+          <button class="dropbtn">Laptop <i class="fa-solid fa-caret-down"></i></button>
+          <div class="dropdown-content">
+            <a href="categories.html">Samsung</a>
+            <a href="categories.html">Honor</a>
+            <a href="categories.html">redmi</a>
+          </div>
+        </div>
+        <div class="dropdown">
+          <button class="dropbtn">Smart watch <i class="fa-solid fa-caret-down"></i></button>
+          <div class="dropdown-content">
+            <a href="categories.html">Samsung</a>
+            <a href="categories.html">Honor</a>
+            <a href="categories.html">redmi</a>
+          </div>
+        </div>
+        <div class="dropdown">
+          <button class="dropbtn">Gadget <i class="fa-solid fa-caret-down"></i></button>
+          <div class="dropdown-content">
+            <a href="categories.html">Samsung</a>
+            <a href="categories.html">Honor</a>
+            <a href="categories.html">redmi</a>
+          </div>
+        </div>
+        <div class="dropdown">
+          <button class="dropbtn">Sound Appliance <i class="fa-solid fa-caret-down"></i></button>
+          <div class="dropdown-content">
+            <a href="categories.html">Samsung</a>
+            <a href="categories.html">Honor</a>
+            <a href="categories.html">redmi</a>
+          </div>
+        </div>
+        <div class="dropdown">
+          <button class="dropbtn">Accesories <i class="fa-solid fa-caret-down"></i></button>
+          <div class="dropdown-content">
+            <a href="categories.html">Samsung</a>
+            <a href="categories.html">Honor</a>
+            <a href="categories.html">redmi</a>
+          </div>
+        </div>
+          <div class="dropdown">
+          <button class="dropbtn">Smart Tv <i class="fa-solid fa-caret-down"></i></button>
+          <div class="dropdown-content">
+            <a href="categories.html">Samsung</a>
+            <a href="categories.html">Honor</a>
+            <a href="categories.html">redmi</a>
+          </div>
+        </div>
+        <div class="dropdown">
+          <button class="dropbtn">Monitor <i class="fa-solid fa-caret-down"></i></button>
+          <div class="dropdown-content">
+            <a href="categories.html">Samsung</a>
+            <a href="categories.html">Honor</a>
+            <a href="categories.html">redmi</a>
+          </div>
+        </div>
+        <div class="dropdown">
+          <button class="dropbtn">Home Appliance <i class="fa-solid fa-caret-down"></i></button>
+          <div class="dropdown-content">
+            <a href="categories.html">Samsung</a>
+            <a href="categories.html">Honor</a>
+            <a href="categories.html">redmi</a>
+          </div>
+        </div>
+        
+        
+       
+      </ul>
+    </div>
+  </div>
+</nav>
+ 
+  <!-- header menu -->
+   
+  <!-- mobile navigation -->
+  <div class="sidebar" id="sidebar">
+    <div class="p-3">
+        <img src="images/logo.png" alt="Logo" class="quicktech-side-logo mb-3"> <!-- Add your logo here -->
+    </div>
+    <div class="accordion" id="accordionSidebar">
+        <div class="accordion-item">
+            <h2 class="accordion-header" id="headingPhone">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapsePhone" aria-expanded="false" aria-controls="collapsePhone">
+                    Phone
+                </button>
+            </h2>
+            <div id="collapsePhone" class="accordion-collapse collapse" aria-labelledby="headingPhone" data-bs-parent="#accordionSidebar">
+                <div class="#">
+                  <ul class="quicktech-mobile-nav-side">
+                    <li><a href="categories.html">Samsung</a></li>
+                    <li><a href="categories.html">Honor</a></li>
+                    <li> <a href="categories.html">redmi</a></li>
+                  </ul>
+                   
+                   
+                  
+                </div>
+            </div>
+        </div>
+        <div class="accordion-item">
+            <h2 class="accordion-header" id="headingTablet">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTablet" aria-expanded="false" aria-controls="collapseTablet">
+                    Tablet
+                </button>
+            </h2>
+            <div id="collapseTablet" class="accordion-collapse collapse" aria-labelledby="headingTablet" data-bs-parent="#accordionSidebar">
+                <div class="accordion-body">
+                  <ul class="quicktech-mobile-nav-side">
+                    <li><a href="categories.html">Samsung</a></li>
+                    <li><a href="categories.html">Honor</a></li>
+                    <li> <a href="categories.html">redmi</a></li>
+                  </ul>
+                </div>
+            </div>
+        </div>
+        <!-- Add more accordion items for Laptop, Smart Watch, Gadget, Sound Appliance, Accessories, SmartTV, and Monitor -->
+    </div>
+</div>
+<nav class="navbar fixed-bottom navbar-light fixed-bottom-navbar">
+    <div class="container">
+   <div class="quicktech-bottom-nav d-flex">
+<div class="quicktech-nav-menuu text-center">
+  <a href="cart.html"><i class="fa-solid fa-cart-shopping"></i> <br> <span>cart</span></a>
+</div>
+<div class="quicktech-nav-menuu text-center">
+  <a href="profile.html"><i class="fas fa-user"></i> <br><span>profile</span></a>
+</div>
+<div class="quicktech-nav-menuu text-center">
+  <a href="wishlist.html"><i class="fa-solid fa-heart"></i> <br> <span>Wishlist</span></a>
+</div>
+<div class="quicktech-nav-menuu text-center">
+  <div id="sidebarToggle" class="quicktech-tog"><i class="fas fa-bars"></i> <br><span>Menu</span></div>
+</div>
+
+    <!-- <a href="#" class="navbar-brand" id="sidebarToggle"><i class="fas fa-bars"></i></a>
+    <a href="#" class="navbar-brand"><i class="fas fa-home"></i> df</a>
+    <a href="#" class="navbar-brand"><i class="fas fa-search"></i> dff</a>
+    <a href="#" class="navbar-brand"><i class="fas fa-bell"></i> df</a>
+    <a href="#" class="navbar-brand"><i class="fas fa-user"></i> sd</a> -->
+   </div>
+     
+    </div>
+</nav>
+
+  <!-- mobile navigation -->
+
+<!-- checkout -->
+<div class="container my-5">
+    <div class="row">
+        <!-- Customer Information -->
+        <div class="col-md-4 mb-4">
+            <div class="card">
+                <div class="card-body">
+                    <h5 class="card-title quicktech-info-head"><span>1</span> Customer Information</h5>
+                    <button class="btn btn-primary mb-3 quicktech-add-btn">New Address</button>
+                    <form>
+                        <div class="mb-3 quicktech-form-label">
+                            <label for="fullName" class="form-label">Full name</label>
+                            <input type="text" class="form-control" id="fullName" placeholder="Full name">
+                        </div>
+                        <div class="mb-3 quicktech-form-label">
+                            <label for="phoneNumber" class="form-label">Phone Number</label>
+                            <input type="text" class="form-control" id="phoneNumber" placeholder="Phone Number">
+                        </div>
+                        <div class="mb-3 quicktech-form-label">
+                            <label for="emailAddress" class="form-label">Email address</label>
+                            <input type="email" class="form-control" id="emailAddress" placeholder="Email address">
+                        </div>
+                        <div class="mb-3 quicktech-form-label">
+                            <label for="district" class="form-label">District</label>
+                            <select class="form-select" id="district">
+                                <option selected>Select district</option>
+                                <!-- Add district options here -->
+                            </select>
+                        </div>
+                        <div class="mb-3 quicktech-form-label">
+                            <label for="zone" class="form-label">Zone</label>
+                            <select class="form-select" id="zone">
+                                <option selected>Select zone</option>
+                                <!-- Add zone options here -->
+                            </select>
+                        </div>
+                        <div class="mb-3 quicktech-form-label">
+                            <label for="addressLine" class="form-label">Address line</label>
+                            <input type="text" class="form-control" id="addressLine" placeholder="Address line">
+                        </div>
+                        <div class="mb-3 quicktech-form-label">
+                            <label for="remark" class="form-label">Remark</label>
+                            <textarea class="form-control" id="remark" rows="2"></textarea>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+        
+        <!-- Payment and Delivery Methods -->
+        <div class="col-md-8">
+            <div class="row mb-4">
+                <!-- Payment Method -->
+                <div class="col-md-6 mb-4">
+                  <div class="card">
+                      <div class="card-body">
+                          <h5 class="card-title quicktech-info-head"><span>2</span> Payment Method</h5>
+                          <p class="quicktech-select" >Select A Payment Method</p>
+                          <div class="btn-group mt-2 quicketch-column" role="group" aria-label="Payment Method">
+                            
+                              <div>
+                                
+                                <button type="button" class=" btn-outline-primary quicktech-button-col" id="btn-cod">
+                                 <img class="on-img" src="images/cash-on-delivery(1).png" alt=""> <br> Cash On Delivery</button></div>
+                              <div><button type="button" class=" btn-outline-primary quicktech-button-col" id="btn-bkash"> <img class="on-img" src="images/cash.png" alt=""> <br> Book Product</button></div>
+                              <div><button type="button" class=" btn-outline-primary quicktech-button-col" id="btn-online"> <img class="on-img"  src="images/onlinepayment.png"  alt=""> <br> Online Payment</button></div>
+                          </div>
+                          <div class="mt-3 secondary-buttons" id="secondary-buttons">
+                            <div class="quicktech-dflex">
+                              <div class="quicktech-bkash text-center">
+                                <a href="#"><img src="images/ssl.png" alt=""></a>
+                                <button type="button" class=" btn-outline-secondary">SLA/CIB</button>
+                              </div>
+                            <div class="quicktech-bkash text-center">   
+                             <a href="#"> <img src="images/bkash.png" alt=""></a>
+                             <button type="button" class=" btn-outline-secondary">Bkash</button></div>
+                             <div class="quicktech-bkash text-center">
+                              <a href="#"><img src="images/nagad.png" alt=""></a>
+                              <button type="button" class=" btn-outline-secondary">Nagad</button>
+                             </div>
+                            </div>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+          
+
+                <!-- Delivery Method -->
+                <div class="col-md-6 mb-4">
+                    <div class="card">
+                        <div class="card-body">
+                            <h5 class="card-title quicktech-info-head"><span>3</span> Delivery Method</h5>
+                            <p class="quicktech-select">Select A Delivery Method</p>
+                            <button type="button" class="btn-outline-primary quicktech-shop-pickup w-100">Shop Pickup</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Choose a Pickup Store -->
+            <div class="mb-4">
+                <div class="card">
+                    <div class="card-body">
+                        <h5 class="card-title quicktech-info-head"> <span>4</span> Choose a pickup store</h5>
+                        <br>
+                        <select class="form-select">
+                            <option selected>Select Store</option>
+                            <!-- Add store options here -->
+                        </select>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Your Order -->
+            <div>
+                <div class="card">
+                    <div class="card-body">
+                        <h5 class="card-title quicktech-info-head"><span>5</span> Your order</h5>
+                        <div class="d-flex justify-content-between quicktech-check-pd mb-3 mt-4">
+                            <span>iPhone 15 Pro Max (Natural Titanium | 256GB | USA)</span>
+                            <span>৳ 136,999</span>
+                        </div>
+                        <div class="mb-3 mt-5">
+                            <div class="input-group">
+                                <input type="text" class="form-control" id="promoCode" placeholder="Enter code">
+                                <button class="btn btn-primary quicktech-coupon">Apply Coupon</button>
+                            </div>
+                        </div>
+                     
+                        <ul class="list-group quicketch-checkk-text mb-3">
+                            <li class="list-group-item d-flex justify-content-between">
+                                <span>Items Price:</span>
+                                <span>৳ 136,999</span>
+                            </li>
+                            <li class="list-group-item d-flex justify-content-between">
+                                <span>Delivery Charge:</span>
+                                <span>৳ 0</span>
+                            </li>
+                            <li class="list-group-item d-flex justify-content-between">
+                                <span>Coupon Discount:</span>
+                                <span>৳ 0</span>
+                            </li>
+                            <li class="list-group-item d-flex justify-content-between">
+                                <span>Subtotal:</span>
+                                <span>৳ 136,999</span>
+                            </li>
+                            <li class="list-group-item d-flex justify-content-between">
+                                <span>Gateway Charge(GC):</span>
+                                <span>৳ 3,425</span>
+                            </li>
+                            <li class="list-group-item d-flex justify-content-between">
+                                <span>Total:</span>
+                                <span>৳ 140,424</span>
+                            </li>
+                        </ul>
+                        <div class="form-check mb-3">
+                            <input class="form-check-input" type="checkbox" id="terms">
+                            <label class="form-check-label quicktech-terms" for="terms">
+                                I accept the policies and terms outlined, including Delivery, Points, Returns, Refunds, Cancellation, Privacy. I agree to comply before placing my order.
+                            </label>
+                        </div>
+                        <div class="text-end">
+                          <button class="btn btn-danger quicktech-confirm-btn">Confirm Order</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- cehckout -->
+
+
+   
+
+<!-- news letter -->
+<section id="quicktech-subscribe">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-6">
+        <div class="quicktech-news">
+          <div class="quicktech-icon">
+            <i class="fa-solid fa-envelope"></i>
+          </div>
+          <div class="quicktech-news-text">
+            <h4>Subscribe To Our Newsletter</h4>
+            <p>Get all the latest information on Events, Sales and Offers.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-6">
+        <div class="quicktech-subs-form">
+          <form action="/" class="subscribe__form" >
+            <input value="" type="email" class="form__input" placeholder="Email Address" data-v-a99881ae=""><button type="button" class="form__button" aria-label="Subscribe Now"><i class="fa-solid fa-paper-plane"></i></button>
+         </form>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- news letter -->
+
+<!-- footer -->
+<section id="quicktech-footer">
+  <div class="container">
+    <div class="row quicktech-f">
+      <div class="col-lg-3">
+        <div class="quicktech-footerone">
+          <h4>About Us</h4>
+          <ul>
+            <li><a href="#">Regarding Us</a></li>
+            <li><a href="#">Careers</a></li>
+            <li><a href="#">Terms and Conditions</a></li>
+            <li><a href="#">Track My Order</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="col-lg-3">
+        <div class="quicktech-footerone">
+          <h4>Policy</h4>
+          <ul>
+            <li><a href="#">Delivery Policy</a></li>
+            <li><a href="#">Point Policy</a></li>
+            <li><a href="#">Return Policy</a></li>
+            <li><a href="#">Refund Policy</a></li>
+            <li><a href="#">Cancellation Policy</a></li>
+            <li><a href="#">Privacy Policy</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="col-lg-3">
+        <div class="quicktech-footerone">
+          <h4>Help</h4>
+          <ul>
+            <li><a href="#">Contact Us</a></li>
+            <li><a href="#">Exchange</a></li>
+            <li><a href="#">Pre-Owned</a></li>
+            <li><a href="#">Announcement</a></li>
+            <li><a href="#">Corporate Deal</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="col-lg-3">
+        <div class="quicktech-footerone">
+          <h4>Stay Connected</h4>
+          <h5>Ready Electronics</h5>
+          <ul>
+            <li>contact@ready.com</li>
+            <li>01900000000</li>
+
+          </ul>
+          <ul class="social">
+            <li><a href="#"><i class="fa-brands fa-facebook"></i></a></li>
+            <li><a href="#"><i class="fa-brands fa-whatsapp"></i></a></li>
+            <li><a href="#"><i class="fa-brands fa-instagram"></i></a></li>
+            <li><a href="#"><i class="fa-brands fa-youtube"></i></a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="quicktech-copyright">
+    <div class="container">
+      <div class="row mt-5">
+        <div class="col-lg-12">
+          <div class="quicktech-copy text-center">
+            <p>Copyright © 2024 READY ELECTRONICS | All rights reserved| Design and Developed By <a href="https://www.quicktech-ltd.com/">Quicktech It.</a></p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- footer -->
+ 
+
+
+
+
+ <script src="js/jquery-1.12.4.min.js"></script>
+ <script src="js/bootstrap.bundle.min.js"></script>
+ <script src="js/slick.min.js"></script>
+ <script src="js/jquery.counterup.js"></script>
+ <script src="js/venobox.min.js"></script>
+ <script src="js/waypoints.min.js"></script>
+ <script src="js/custom.js"></script>
+
+ <script>
+  // sidebar
+document.getElementById('sidebarToggle').addEventListener('click', function() {
+document.getElementById('sidebar').classList.toggle('show');
+});
+
+</script>
+</body>
+</html>

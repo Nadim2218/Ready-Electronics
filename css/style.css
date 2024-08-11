@@ -1,0 +1,2498 @@
+/* common css start */
+.active::after {
+	content: """" !important;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    overflow-x: hidden;
+}
+a{
+    text-decoration: none;
+}
+ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+img{
+    vertical-align: middle;
+    transition: 0.6s !important;
+}
+img:hover{
+    transform: scale(1.05);
+}
+/* back to top button */
+#myBtn {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    z-index: 99;
+    cursor: pointer;
+    background-color: #36BCCAFF;
+    color: #333;
+    border: none;
+    outline: none;
+    padding: 5px 10px;
+    border-radius: 50%;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+  }
+  
+  #myBtn:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  }
+  
+  .arrow-up {
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    border: solid #333;
+    border-width: 0 2px 2px 0;
+    transform: rotate(-135deg);
+  }
+  
+  
+
+/* common css end */
+
+.logoss {
+    height: 49px !important;
+}
+.navbar-search {
+    display: flex;
+    justify-content: center;
+
+    
+}
+.navbar {
+    background-color: #f4f8fb !important;
+}
+.navbar-search{
+    position: relative !important;
+}
+.navbar-search input {
+	padding-right: 364px;
+	border-radius: 10px;
+	/* padding: 10px; */
+	padding-bottom: 15px;
+	padding-top: 15px;
+}
+.navbar-search button {
+	position: absolute;
+	right: 8px;
+	border: transparent;
+	top: 1px;
+	background-color: #36BCCAFF;
+	padding: 15px;
+	border-bottom-left-radius: 0;
+	border-top-left-radius: 0;
+}
+.navbar-search button:hover {
+	background-color: rgba(54, 187, 202, 0.429) !important;
+
+}
+.navbar-icons .nav-link {
+    font-size: 1.2rem;
+}
+.nav-item a i{
+    color: #36BCCAFF ;
+    background-color: white;
+	width: 40px;
+	height: 40px;
+	border-radius: 50%;
+	line-height: 40px;
+	text-align: center;
+   
+}
+
+ .d:hover{
+    background-color: tomato;
+    color: white;
+    transition: 0.4s;
+}
+.c{
+    column-gap: 10px;
+}
+.quicktech-col{
+    color:white ;
+}
+.btn:hover {
+	color: var(--bs-btn-hover-color);
+	background-color: transparent !important;
+	border-color: transparent !important;
+}
+.quicktech-col:hover{
+    color:black;
+    transition: 0.4s;
+}
+
+/* header */
+ /* Dropdown Button */
+ .dropbtn {
+     background-color: transparent;
+    color: black;
+    padding: 10px;
+    font-size: 15px;
+    border: none;
+     font-family: "Noto Sans", sans-serif;
+    font-weight: 400;
+  }
+  
+  /* The container <div> - needed to position the dropdown content */
+  .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  .quicktech-drop{
+    position: relative;
+  }
+  .quicktech-drop::after{
+    position: absolute;
+    content: '';
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 1px;
+    background-color: #dddddd88;
+
+  }
+  
+  /* Dropdown Content (Hidden by Default) */
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  /* Links inside the dropdown */
+  .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    font-size: 14px;
+     font-family: "Noto Sans", sans-serif;
+    font-weight: 500;
+  }
+  
+  /* Change color of dropdown links on hover */
+  .dropdown-content a:hover {background-color: #ddd;}
+  
+  /* Show the dropdown menu on hover */
+  .dropdown:hover .dropdown-content {display: block;}
+  
+  /* Change the background color of the dropdown button when the dropdown content is shown */
+
+/* header */
+
+/* banner */
+.carousel-item img{
+    height: 350px;
+    transition: 0.4s;
+    border-radius: 10px;
+}
+.carousel-item{
+    border-radius: 10px;
+}
+.carousel-item img:hover{
+    transform: scale(1.05);
+    transition: 0.4s;
+   
+}
+.quicktech-hotdeal{
+    width: 100%;
+    height: 100%;
+    padding: 10px 0;
+    border-radius: 10px;
+}
+.quicktech-hotdeal h1{
+    text-align: center;
+    font-size: 25px;
+     font-family: "Noto Sans", sans-serif;
+    font-weight: 500;
+
+}
+.quicktech-hotdeal-content{
+    padding: 20px;
+    
+}
+.quicktech-h{
+    background-color: white;
+    display: flex;
+    border-radius: 20px;
+}
+.quicktech-h-img{
+    width: 110px;
+    
+}
+.quicktech-h-img img{
+    width: 100%;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    height: 103px;
+}
+
+.quicktech-p-details{
+    padding-left: 20px;
+}
+.quicktech-p-details h5{
+    font-size: 17px;
+    padding-top: 20px;
+     font-family: "Noto Sans", sans-serif;
+    font-weight: 500;
+    color: black;
+    
+}
+.quicktech-p-details p{
+     font-family: "Noto Sans", sans-serif;
+    font-weight: 400;
+    color: #36BCCAFF ;
+}
+.quicktech-p-details s{
+     font-family: "Noto Sans", sans-serif;
+    font-weight: 400;
+    color: rgba(0, 0, 0, 0.568);
+}
+/* banner */
+/* watch */
+#quicktech-watch{
+    padding-bottom: 20px ;
+}
+.quicktech-w{
+    border-radius: 10px;
+}
+.quicktech-w img{
+    height: 200px;
+    border-radius: 10px;
+}
+/* watch */
+.quicktech-cat-main{
+    border: 2px solid #ddd;
+    border-radius: 50%;
+    padding: 10px;
+    transition: 0.4s;
+}
+.quicktech-cat-text p{
+    color: black;
+     font-family: "Noto Sans", sans-serif;
+    font-weight: 500;
+    font-size: 18px;
+    padding-top: 10px;
+}
+.quicktech-cat-main:hover{
+      border: 2px solid #36BCCAFF;
+}
+
+/* new arrival */
+#quicktech-newarrival{
+    padding: 30px 0;
+
+    margin-top: 30px;
+}
+#quicktech-bestselling{
+    padding: 30px 0;
+
+    margin-top: 30px;
+}
+.quicktech-coll{
+    background-color: rgba(54, 187, 202, 0.075);
+    padding: 20px 20px;
+    border-radius: 10px;
+}
+.quicktech-new-head{
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+   
+}
+.quicktech-new-head h4{
+    color: black;
+     font-family: "Noto Sans", sans-serif;
+    font-weight: 500;
+}
+.quicktech-new-head::after{
+    position: absolute;
+    content: "";
+    bottom: -11px;
+    left: 0;
+    width: 100%;
+    height: 1px;
+    background-color: rgba(0, 0, 0, 0.349);
+}
+.quicktech-new-head button{
+    background-color: white;
+    border: 2px solid #36BCCAFF;
+    padding: 5px 15px;
+    transition: 0.4s;
+}
+.quicktech-new-head button:hover{
+    background-color: #36BCCAFF;
+    border: 2px solid transparent;
+    padding: 5px 15px;
+}
+.quicktech-new-head button a{
+    color: black;
+     font-family: "Noto Sans", sans-serif;
+    font-weight: 400;
+}
+.quicktech-new-main{
+    padding: 20px;
+    background-color: white;
+    border-radius: 10px;
+    border: 1px solid #ddd;
+    position: relative !important;
+}
+.quicktech-new-img{
+    background-color: rgba(54, 187, 202, 0.064);
+    border-radius: 10px;
+}
+.quicktech-new-img img{
+   height: 220px;
+  
+}
+.quicktech-save{
+	position: absolute !important;
+	top: 29px;
+	left: 26px;
+    z-index: 9;
+	/* border: ; */
+	/* background-color: red; */
+	/* padding: 5px 10px; */
+}
+.quicktech-save p{
+    padding: 5px 10px;
+    background-color: #36BCCAFF ;
+    color: white;
+     font-family: "Noto Sans", sans-serif;
+    font-weight: 500;
+    font-size: 13px;
+}
+.quicktech-new-text h5{
+    font-size: 18px;
+     font-family: "Noto Sans", sans-serif;
+    font-weight: 500;
+    padding-top: 10px;
+    color: black;
+}
+.quicktech-new-text p{
+    font-size: 16px;
+     font-family: "Noto Sans", sans-serif;
+    font-weight: 500;
+    color: black;
+}
+.quicktech-new-text s{
+    font-size: 14px;
+     font-family: "Noto Sans", sans-serif;
+    font-weight: 400;
+    color: rgba(0, 0, 0, 0.457);
+}
+/* new arrival */
+
+/* the slides */
+.slick-slide {
+    margin: 0 10px;
+}
+/* the parent */
+.slick-list {
+    margin: 0 -10px;
+}
+
+/* best */
+
+
+#quicktech-bestselling{
+    padding: 30px 0;
+
+    margin-top: 30px;
+}
+.quicktech-coll{
+    background-color: rgba(54, 187, 202, 0.075);
+    padding: 20px 20px;
+    border-radius: 10px;
+}
+.quicktech-best-head{
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+   
+}
+.quicktech-best-head h4{
+    color: black;
+     font-family: "Noto Sans", sans-serif;
+    font-weight: 500;
+}
+.quicktech-best-head::after{
+    position: absolute;
+    content: "";
+    bottom: -11px;
+    left: 0;
+    width: 100%;
+    height: 1px;
+    background-color: rgba(0, 0, 0, 0.349);
+}
+.quicktech-best-head button{
+    background-color: white;
+    border: 2px solid #36BCCAFF;
+    padding: 5px 15px;
+    transition: 0.4s;
+}
+.quicktech-best-head button:hover{
+    background-color: #36BCCAFF;
+    border: 2px solid transparent;
+    padding: 5px 15px;
+}
+.quicktech-best-head button a{
+    color: black;
+     font-family: "Noto Sans", sans-serif;
+    font-weight: 400;
+}
+.quicktech-best-main{
+    padding: 20px;
+    background-color: white;
+    border-radius: 10px;
+    border: 1px solid #ddd;
+    position: relative !important;
+}
+.quicktech-best-img{
+    background-color: rgba(54, 187, 202, 0.064);
+    border-radius: 10px;
+}
+.quicktech-best-img img{
+   height: 220px;
+  
+}
+.quicktech-save{
+	position: absolute !important;
+	top: 29px;
+	left: 26px;
+    z-index: 9;
+	/* border: ; */
+	/* background-color: red; */
+	/* padding: 5px 10px; */
+}
+.quicktech-save p{
+    padding: 5px 10px;
+    background-color: #36BCCAFF ;
+    color: white;
+     font-family: "Noto Sans", sans-serif;
+    font-weight: 500;
+    font-size: 13px;
+}
+.quicktech-best-text h5{
+    font-size: 18px;
+     font-family: "Noto Sans", sans-serif;
+    font-weight: 500;
+    padding-top: 10px;
+    color: black;
+}
+.quicktech-best-text p{
+    font-size: 16px;
+     font-family: "Noto Sans", sans-serif;
+    font-weight: 500;
+    color: black;
+}
+.quicktech-best-text s{
+    font-size: 14px;
+     font-family: "Noto Sans", sans-serif;
+    font-weight: 400;
+    color: rgba(0, 0, 0, 0.457);
+}
+/* best */
+
+/* get */
+.quicktech-get-main a img{
+   border-radius: 10px;
+   height: 250px;
+}
+.quicktech-watchban-main a img{
+    border-radius: 10px;
+    height: 250px;
+ }
+/* get */
+
+
+/* laptop */
+
+
+#quicktech-laptop{
+    padding: 30px 0;
+
+    margin-top: 30px;
+}
+.quicktech-coll{
+    background-color: rgba(54, 187, 202, 0.075);
+    padding: 20px 20px;
+    border-radius: 10px;
+}
+.quicktech-lap-head{
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+   
+}
+.quicktech-lap-head h4{
+    color: black;
+     font-family: "Noto Sans", sans-serif;
+    font-weight: 500;
+}
+.quicktech-lap-head::after{
+    position: absolute;
+    content: "";
+    bottom: -11px;
+    left: 0;
+    width: 100%;
+    height: 1px;
+    background-color: rgba(0, 0, 0, 0.349);
+}
+.quicktech-lap-head button{
+    background-color: white;
+    border: 2px solid #36BCCAFF;
+    padding: 5px 15px;
+    transition: 0.4s;
+}
+.quicktech-lap-head button:hover{
+    background-color: #36BCCAFF;
+    border: 2px solid transparent;
+    padding: 5px 15px;
+}
+.quicktech-lap-head button a{
+    color: black;
+     font-family: "Noto Sans", sans-serif;
+    font-weight: 400;
+}
+.quicktech-lap-main{
+    padding: 20px;
+    background-color: white;
+    border-radius: 10px;
+    border: 1px solid #ddd;
+    position: relative !important;
+}
+.quicktech-lap-img{
+    background-color: rgba(54, 187, 202, 0.064);
+    border-radius: 10px;
+}
+.quicktech-lap-img img{
+   height: 220px;
+  
+}
+.quicktech-save{
+	position: absolute !important;
+	top: 29px;
+	left: 26px;
+    z-index: 9;
+	/* border: ; */
+	/* background-color: red; */
+	/* padding: 5px 10px; */
+}
+.quicktech-save p{
+    padding: 5px 10px;
+    background-color: #36BCCAFF ;
+    color: white;
+     font-family: "Noto Sans", sans-serif;
+    font-weight: 500;
+    font-size: 13px;
+}
+.quicktech-lap-text h5{
+    font-size: 18px;
+     font-family: "Noto Sans", sans-serif;
+    font-weight: 500;
+    padding-top: 10px;
+    color: black;
+}
+.quicktech-lap-text p{
+    font-size: 16px;
+     font-family: "Noto Sans", sans-serif;
+    font-weight: 500;
+    color: black;
+}
+.quicktech-lap-text s{
+    font-size: 14px;
+     font-family: "Noto Sans", sans-serif;
+    font-weight: 400;
+    color: rgba(0, 0, 0, 0.457);
+}
+/* laptop */
+
+
+/* tv */
+
+
+#quicktech-tv{
+    padding: 30px 0;
+
+    margin-top: 30px;
+}
+.quicktech-coll{
+    background-color: rgba(54, 187, 202, 0.075);
+    padding: 20px 20px;
+    border-radius: 10px;
+}
+.quicktech-tv-head{
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+   
+}
+.quicktech-tv-head h4{
+    color: black;
+     font-family: "Noto Sans", sans-serif;
+    font-weight: 500;
+}
+.quicktech-tv-head::after{
+    position: absolute;
+    content: "";
+    bottom: -11px;
+    left: 0;
+    width: 100%;
+    height: 1px;
+    background-color: rgba(0, 0, 0, 0.349);
+}
+.quicktech-tv-head button{
+    background-color: white;
+    border: 2px solid #36BCCAFF;
+    padding: 5px 15px;
+    transition: 0.4s;
+}
+.quicktech-tv-head button:hover{
+    background-color: #36BCCAFF;
+    border: 2px solid transparent;
+    padding: 5px 15px;
+}
+.quicktech-tv-head button a{
+    color: black;
+     font-family: "Noto Sans", sans-serif;
+    font-weight: 400;
+}
+.quicktech-tv-main{
+    padding: 20px;
+    background-color: white;
+    border-radius: 10px;
+    border: 1px solid #ddd;
+    position: relative !important;
+}
+.quicktech-tv-img{
+    background-color: rgba(54, 187, 202, 0.064);
+    border-radius: 10px;
+}
+.quicktech-tv-img img{
+   height: 220px;
+  
+}
+.quicktech-save{
+	position: absolute !important;
+	top: 29px;
+	left: 26px;
+    z-index: 9;
+	/* border: ; */
+	/* background-color: red; */
+	/* padding: 5px 10px; */
+}
+.quicktech-save p{
+    padding: 5px 10px;
+    background-color: #36BCCAFF ;
+    color: white;
+     font-family: "Noto Sans", sans-serif;
+    font-weight: 500;
+    font-size: 13px;
+}
+.quicktech-tv-text h5{
+    font-size: 18px;
+     font-family: "Noto Sans", sans-serif;
+    font-weight: 500;
+    padding-top: 10px;
+    color: black;
+}
+.quicktech-tv-text p{
+    font-size: 16px;
+     font-family: "Noto Sans", sans-serif;
+    font-weight: 500;
+    color: black;
+}
+.quicktech-tv-text s{
+    font-size: 14px;
+     font-family: "Noto Sans", sans-serif;
+    font-weight: 400;
+    color: rgba(0, 0, 0, 0.457);
+}
+
+
+/* tv */
+
+
+/* brand */
+#quicktech-brand{
+    padding: 30px 0;
+    height: 670px;
+}
+
+#quicktech-online{
+    padding: 10px 0;
+    margin-top: -167px;
+}
+.brand-head h1 {
+	font-size: 35px;
+	 font-family: "Noto Sans", sans-serif;
+	font-weight: 500;
+	color: #36BCCAFF;
+	width: 800px;
+	/* text-align: start; */
+	margin: auto;
+}
+.quicktech-brand-main img{
+    border-radius: 10px;
+    height: 80px;
+}
+.gapp{
+    row-gap: 20px;
+}
+.quicktech-discover button{
+    padding: 10px 20px;
+    border: none;
+    background-color: #36BCCAFF;
+    transition: 0.4s;
+}
+.quicktech-discover button:hover{
+    background-color: rgba(54, 187, 202, 0.674);
+}
+.quicktech-discover button a{
+   color: black;
+    font-family: "Noto Sans", sans-serif;
+	font-weight: 500;
+}
+.quicktech-sup i{
+    /* background-color: rgba(54, 187, 202, 0.075) ; */
+    padding: 30px;
+    border-radius: 50%;
+    font-size: 35px;
+    color: #36BCCAFF;
+    background-color: #dddddd62;
+    transition: 0.4s;
+}
+.quicktech-sup i:hover{
+    background-color: #36BCCAFF;
+    color: white;
+}
+.quicktech-sup p{
+    padding-top: 10px;
+     font-family: "Noto Sans", sans-serif;
+	font-weight: 400;
+    font-size: 17px;
+}
+.quicktech-b-bg{
+    background-color: white;
+    padding: 30px;
+}
+/* brand */
+
+/* news letter */
+#quicktech-subscribe{
+    background-color: #f4f8fb;
+     padding: 30px 0;
+    margin-top: 50px;
+}
+.quicktech-news{
+    display: flex;
+    justify-content: space-around;
+}
+.quicktech-icon i{
+      font-size: 60px;
+}
+.quicktech-news-text h4{
+     font-family: "Noto Sans", sans-serif;
+	font-weight: 500;
+}
+.quicktech-news-text p{
+     font-family: "Noto Sans", sans-serif;
+	font-weight: 400;
+}
+.subscribe__form{
+    background-color:white;
+    border-radius:5px;
+    display:flex;
+    padding:10px
+  }
+  .subscribe__form .form__input{
+    border:1px solid #ddd;
+    border-radius:5px;
+    font-size:20px;
+    padding:16px 20px;
+    width:calc(100% - 68px)
+  }
+  .subscribe__form .form__button {
+    background-color:white;
+    border:1px solid #ddd;
+    border-radius:5px;
+    color:var(--primary-color);
+    font-size:22px;
+    height:60px;
+    margin-left:8px;
+    width:60px
+  }
+  .subscribe__form .form__button:hover {
+    background-color:var(--primary-color);
+    color:#36BCCAFF;
+  }
+/* news letter */
+
+
+/* footer */
+#quicktech-footer{
+    background-color: #f4f8fb;
+    padding: 20px 0;
+}
+.quicktech-footerone h4{
+     font-family: "Noto Sans", sans-serif;
+	font-weight: 500;
+    font-size: 20px;
+    color: black;
+}
+.quicktech-footerone h5{
+     font-family: "Noto Sans", sans-serif;
+	font-weight: 500;
+    font-size: 15px;
+    color: black;
+}
+.quicktech-footerone ul li a{
+     font-family: "Noto Sans", sans-serif;
+	font-weight: 400;
+    font-size: 15px;
+    color: black;
+    transition: 0.4s;
+}
+.quicktech-footerone ul li a:hover{
+    color: #36BCCAFF;
+}
+.quicktech-f{
+    position: relative;
+
+}
+.quicktech-f::after{
+    position: absolute;
+    content: '';
+    top: -20px;
+    left: 0;
+    width: 100%;
+    height: 1px;
+    background-color: rgba(0, 0, 0, 0.447);
+}
+.social{
+    display: flex;
+    column-gap: 20px;
+}
+.social li a i{
+    font-size: 20px;
+    padding-top: 20px;
+}
+.quicktech-copy p{
+     font-family: "Noto Sans", sans-serif;
+	font-weight: 400;
+    color: #36BCCAFF;
+
+}
+.quicktech-copy a{
+    color: #36BCCAFF;
+}
+.quicktech-copyright{
+    position: relative;
+}
+.quicktech-copyright::after{
+    position: absolute;
+    content: '';
+    top: -20px;
+    left: 0;
+    width: 100%;
+    height: 1px;
+    background-color: rgba(0, 0, 0, 0.114);
+}
+/* footer */
+
+/* content */
+.quicktech-content-text h1{
+    font-size: 28px;
+     font-family: "Noto Sans", sans-serif;
+	font-weight: 500;
+    color: #36BCCAFF;
+}
+
+/* login */
+.quicktech-login-img img{
+    height: 474px;
+    width: 82%;
+}
+
+/* login */
+
+.card {
+    border-radius: 10px;
+    box-shadow: 0 8px 24px #0000001a;
+    border:none;
+}
+
+.card h2 {
+    margin-bottom: 20px;
+}
+
+.card .form-group label {
+    font-weight: 600;
+}
+
+.card .form-control {
+    border-radius: 5px;
+    height: calc(1.5em + 1rem + 2px);
+}
+
+.card .btn {
+    border-radius: 5px;
+    padding: 10px;
+}
+
+.card .text-danger {
+    color: #FF6F61 !important;
+}
+
+.form-control {
+	display: block;
+	width: 100%;
+	padding: .375rem .75rem;
+	font-size: 1rem;
+	font-weight: 400;
+	line-height: 1.5;
+	color: #212529;
+	background-color: #fff;
+	background-clip: padding-box;
+	border: 1px solid #ced4da82;
+	-webkit-appearance: none;
+	-moz-appearance: none;
+	appearance: none;
+	border-radius: .375rem;
+	transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
+.padd label{
+    padding-bottom: 10px;
+    font-family: "Noto Sans", sans-serif;
+	font-weight: 500;
+}
+
+.btn-hov:hover{
+    background-color: rgba(54, 187, 202, 0.502) !important;
+    transition: 0.4s;
+}
+.btn-hov{
+    font-family: "Noto Sans", sans-serif;
+	font-weight: 500;
+}
+
+.quicktech-welcome{
+    font-family: "Noto Sans", sans-serif;
+	font-weight: 500;
+}
+.quic span{
+    font-family: "Noto Sans", sans-serif;
+	font-weight: 400;
+    font-size: 16px;
+}
+
+.quic{
+    position: relative;
+}
+.quic::after {
+	position: absolute;
+	content: "";
+	top: 13px;
+	left: 0;
+	width: 26%;
+	height: 2px;
+	background-color: #0000001d;
+}
+.quic::before {
+	position: absolute;
+	content: "";
+	top: 13px;
+	right: 0;
+	width: 25%;
+	height: 2px;
+	background-color: #0000001a;
+}
+
+.checkbox{
+    padding-left: 10px;
+}
+
+.otp-input{
+    width: 40px;
+    height: 40px;
+    text-align: center;
+}
+
+/* cart */
+.quicktech-cart-head{
+    font-family: "Noto Sans", sans-serif;
+	font-weight: 500;
+    font-size: 24px;
+}
+
+.table-image {
+    width: 74px;
+    height: auto;
+}
+.table thead th {
+	background-color: #dfedeb;
+	font-size: 17px;
+    font-family: "Noto Sans", sans-serif;
+	font-weight: 500;
+}
+.product-name p{
+	font-size: 16px;
+	/* font-weight: bold; */
+    font-family: "Noto Sans", sans-serif;
+    font-weight: 400;
+}
+.product-details p{
+    color: gray;
+    font-size: 14px;
+}
+.quantity-buttons button {
+    width: 30px;
+    height: 30px;
+}
+.checkout-btn {
+    background-color: #36BCCAFF;
+    border: none;
+    padding: 10px 20px;
+    color: white;
+    font-size: 1.2rem;
+    border-radius: 5px;
+}
+.quicktech-td td{
+    font-size: 15px;
+
+}
+.quicktech-td {
+    padding-top: 10px;
+}
+.quicktech-mt{
+    padding-top: 30px !important;
+}
+.quicktech-total strong{
+    font-size:20px;
+    font-family: "Noto Sans", sans-serif;
+    font-weight: 500;
+    padding-right: 20px;
+}
+.btn-h:hover{
+    background-color: #36BCCAFF !important;
+}
+.btn-ho:hover{
+    background-color: tomato !important;
+}
+/* cart */
+
+
+
+.quicktech-info-head span {
+	width: 20px;
+	height: 20px;
+	border-radius: 50%;
+	background-color: #36BCCAFF;
+	padding: 1px 9px;
+    color: white;
+}
+
+.quicktech-info-head{
+    font-size:20px;
+    font-family: "Noto Sans", sans-serif;
+    font-weight: 500;
+}
+.quicktech-add-btn{
+    margin-top: 20px;
+    background-color: #36BCCAFF !important ;
+}
+.quicktech-add-btn:hover{
+
+    background-color: #36BCCAFF !important ;
+}
+
+.quicktech-form-label label{
+    font-family: "Noto Sans", sans-serif;
+    font-weight: 400;
+}
+.secondary-buttons {
+    display: none;
+}
+.active-button {
+    background-color: #36BCCAFF !important;
+    color: white;
+}
+.on-img{
+    width: 37%;
+}
+
+.quicktech-button-col{
+        padding: 10px;
+        height: 101px;
+      background-color: transparent;
+     border: 1px solid #36BCCAFF;
+     border-radius: 10px;
+}
+.quicktech-select{
+    font-size: 14px;
+    font-family: "Noto Sans", sans-serif;
+    font-weight: 400;
+}
+.quicketch-column{
+    column-gap: 10px;
+}
+.quicktech-dflex{
+    display: flex;
+    justify-content: space-around;
+    column-gap: 10px;
+    background-color: #dddddd88;
+    padding: 20px;
+    border-radius: 10px;
+}
+.quicktech-bkash a img{
+    width: 62%;
+}
+.quicktech-bkash button{
+    background-color: transparent;
+    border: transparent;
+    font-size: 15px;
+    font-family: "Noto Sans", sans-serif;
+    font-weight: 400;
+}
+.quicktech-bkash{
+    border: 1px solid #36BCCAFF;
+    padding: 10px;
+    background-color: rgba(54, 187, 202, 0.062);
+    border-radius: 10px;
+}
+
+.quicktech-shop-pickup{
+    padding-top: 30px !important;
+    padding-bottom: 30px !important;
+    border: 1px solid #36BCCAFF;
+    background-color: rgba(54, 187, 202, 0.105);
+    font-family: "Noto Sans", sans-serif;
+    font-weight: 500;
+}
+
+.quicktech-check-pd span{
+    font-family: "Noto Sans", sans-serif;
+    font-weight: 400;
+    
+}
+.quicktech-check-pd {
+    position: relative;
+}
+.quicktech-check-pd::after{
+    position: absolute;
+    content: "";
+    bottom: -10px;
+    left: 0;
+    width: 100%;
+    height: 1px;
+    background-color: rgba(0, 0, 0, 0.187);
+}
+
+.quicktech-coupon{
+    background-color: transparent;
+    border: 1px solid black;
+    color: black;
+    padding: 8px !important;
+    font-family: "Noto Sans", sans-serif;
+    font-weight: 500;
+    font-size: 15px;
+}
+.quicktech-coupon:hover{
+       background-color: #36BCCAFF !important ;
+       transition: 0.4s;
+}
+.quicketch-checkk-text li span{
+    font-family: "Noto Sans", sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+}
+
+.quicktech-terms{
+    font-family: "Noto Sans", sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+}
+.quicktech-confirm-btn{
+    background-color: #36BCCAFF;
+    border: transparent;
+    padding: 16px 26px;
+    transition: 0.4s;
+    font-family: "Noto Sans", sans-serif;
+    font-weight: 500;
+}
+.quicktech-confirm-btn:hover{
+    background-color: rgba(54, 187, 202, 0.733) !important ;
+    
+}
+
+.quicktech-pro-img{
+    width: 70px;
+    height: 70px;
+}
+
+.quicktech-pro-dflex{
+    display: flex;
+    column-gap: 20px;
+}
+
+.quicktech-profile-name h5{
+    font-family: "Noto Sans", sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+    text-align: left;
+}
+.quicktech-profile-name h4{
+    font-family: "Noto Sans", sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+}
+
+.quicktech-ic i{
+    font-size: 20px;
+  
+}
+.quicktech-ic{
+    color: black;
+    font-family: "Noto Sans", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+}
+.nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link.active {
+	color: #36BCCAFF;
+	background-color: var(--bs-nav-tabs-link-active-bg);
+	border-color: var(--bs-nav-tabs-link-active-border-color);
+}
+
+.nav-link:focus, .nav-link:hover {
+	color: #36BCCAFF;
+    transition: 0.4s;
+}
+
+.gapp{
+    row-gap: 20px;
+}
+
+.display-text{
+    font-family: "Noto Sans", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+}
+.quicktech-n-btn{
+    padding: 7px !important;
+}
+.quicktech-n-btn:hover{
+   background-color: #36BCCAFF !important;
+
+}
+
+.quicktech-card{
+    background-color: #f9f9f9 !important;
+}
+
+
+
+  .quicktech-order{
+font-size: 20px;
+font-family: "Noto Sans", sans-serif;
+font-weight: 500;
+  }
+  .quicktech-border{
+    border: 1px solid rgba(0, 0, 0, 0.388);
+    border-style: dashed;
+  }
+
+  .quicktech-order-id{
+    font-size: 13px;
+    color: #36BCCAFF;
+    font-family: "Noto Sans", sans-serif;
+font-weight: 500;
+  }
+
+  .quicktech-text-muted{
+        font-size: 11px;
+        font-family: "Noto Sans", sans-serif;
+font-weight: 400;
+  }
+
+  .qucktech--price{
+    font-size: 15px !important;
+    font-family: "Noto Sans", sans-serif;
+font-weight: 400;
+  }
+
+  .quicktech-id-btn{
+    padding: 3px 10px;
+    font-size: 14px;
+    margin: 10px 0;
+    font-family: "Noto Sans", sans-serif;
+    font-weight: 400;
+    background-color: white;
+    border: 1px solid rgba(0, 0, 0, 0.521);
+    border-radius: 10px;
+  }
+
+  .quicktech-after{
+    position: relative;
+
+  }
+  .quicktech-after::after{
+    position: absolute;
+    content: '';
+    bottom: -10px;
+    left: 0;
+    width: 100%;
+    height: 2px;
+    background-color: rgba(0, 0, 0, 0.055);
+  }
+
+  .img-thumbnail{
+    width: 12%;
+  }
+
+  .hidden {
+    display: none;
+}
+.address-card {
+    border: 1px solid #ced4da;
+    border-radius: 5px;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+.btn-default {
+    background-color: #20c997;
+    color: white;
+}
+.btn-default:hover {
+    background-color: #198754;
+}
+.form-container {
+    padding: 20px;
+    border: 1px solid #ced4da;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+.back-link {
+    color: #dc3545;
+    cursor: pointer;
+}
+.back-link:hover {
+    text-decoration: underline;
+}
+
+#address-book h2{
+    font-size: 20px;
+  font-family: "Noto Sans", sans-serif;
+  font-weight: 500;
+}
+
+.quikctech-num p {
+	border: 1px solid #36BCCAFF;
+	width: 150px;
+	padding: 10px;
+	border-radius: 10px;
+	font-size: 13px;
+	margin-top: -33px;
+	background-color: white;
+    color: #36BCCAFF;
+    font-family: "Noto Sans", sans-serif;
+    font-weight: 400;
+}
+.quicktech-address-dflex{
+    display: flex;
+    justify-content: space-between;
+}
+
+.qucitech-old-add{
+font-size: 15px;
+font-family: "Noto Sans", sans-serif;
+    font-weight: 400;
+    color: #36BCCAFF;
+}
+
+.quicktech-default{
+    padding: 5px 10px;
+    font-size: 13px;
+font-family: "Noto Sans", sans-serif;
+    font-weight: 400;
+    background-color: #36BCCAFF;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    transition: 0.4s;
+    cursor: pointer;
+}
+.quicktech-default:hover{
+    background-color:rgba(54, 187, 202, 0.6) ;
+}
+
+.quicktech-edit-btn{
+    border: none;
+    background-color: transparent;
+   
+    
+}
+.quicktech-edit-btn i{
+    font-size: 17px;
+    color: #ddd;
+    padding-left: 5px;
+    transition: 0.4s;
+    cursor: pointer;
+}
+.quicktech-edit-btn i:hover{
+ 
+    color: #36BCCAFF;
+}
+.quicktech-border{
+    padding: 20px;
+   border: 2px solid #dddddd52;
+   border-radius: 10px;
+}
+
+.form-group label{
+    font-size: 16px !important;
+    font-family: "Noto Sans", sans-serif;
+        font-weight: 400 !important;
+        padding: 10px 0;
+}
+
+.quicktech-create-btn button {
+	padding: 10px 20px;
+	border: none;
+	background-color: #36BCCAFF;
+	border-radius: 10px;
+    color: white;
+    transition: 0.4s;
+}
+.quicktech-create-btn button:hover{
+    background-color: rgba(54, 187, 202, 0.744);
+
+}
+
+.quicktech-add-address button{
+    padding: 5px 15px;
+    background-color: #36BCCAFF;
+    font-size: 15px;
+    font-family: "Noto Sans", sans-serif;
+    font-weight: 400;
+    color: white;
+    transition: 0.4s;
+    border: none;
+}
+
+.quicktech-add-address button:hover{
+    background-color: rgba(54, 187, 202, 0.744);
+}
+.quicketch-pro-head{
+    font-size: 20px;
+    font-family: "Noto Sans", sans-serif;
+    font-weight: 500;
+}
+.quicktech-change-pass{
+    background-color: transparent;
+    border-radius: none;
+  box-shadow: none;
+  border: none;
+}
+
+.quicktech-changepass-btn button{
+    padding: 15px 25px;
+    background-color: #36BCCAFF;
+    font-size: 16px;
+    font-family: "Noto Sans", sans-serif;
+    font-weight: 400;
+    color: white;
+    transition: 0.4s;
+    border: none;
+    border-radius: 10px;
+}
+
+.quicktech-changepass-btn button:hover{
+    background-color: rgba(54, 187, 202, 0.744);
+}
+.quicktech-wish-img img{
+    width: 100px;
+    height: 100px;
+}
+
+.quicktech-wishlist-main{
+    padding: 30px;
+    background-color: #dddddd5f;
+    border-radius: 10px;
+}
+.quicktech-wish-col{
+    background-color: white;
+    border-radius: 10px;
+}
+
+.quicktech-wishlist-btn a{
+    padding: 10px 20px;
+    background-color: #36BCCAFF;
+    font-size: 14px;
+    font-family: "Noto Sans", sans-serif;
+    font-weight: 400;
+    color: white;
+    transition: 0.4s;
+    border: none;
+    border-radius: 10px;
+}
+.quicktech-wishlist-btn a:hover{
+    background-color: rgba(54, 187, 202, 0.744);
+}
+
+
+.quicktech-orderdetails-head h2{
+    font-size: 23px;
+    font-family: "Noto Sans", sans-serif;
+    font-weight: 500;
+}
+
+.quicktech-order-col{
+    background-color: #dddddd58;
+    padding: 30px;
+}
+
+.quicktech-order-id h4{
+    font-size: 14px;
+    padding-top: 4px;
+    color: black;
+}
+.quicktech-order-id button{
+    padding: 2px 10px;
+    font-size: 13px;
+    border: 1px solid rgba(0, 0, 0, 0.212);
+    background-color: transparent;
+    border-radius: 10px;
+    margin-left: 10px;
+    font-family: "Noto Sans", sans-serif;
+    font-weight: 400;
+
+}
+.quicktech-od p{
+    font-size: 11px;
+    font-family: "Noto Sans", sans-serif;
+    font-weight: 400;
+    color: rgba(0, 0, 0, 0.429);
+
+}
+
+.quicktech-orderdetails-price h4{
+    font-size: 24px;
+    font-family: "Noto Sans", sans-serif;
+    font-weight: 500;
+    color: #36BCCAFF;
+}
+.quicktech-od-after{
+    position: relative;
+}
+.quicktech-od-after::after{
+    position: absolute;
+    content: '';
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 1px;
+    background-color: rgba(0, 0, 0, 0.114);
+}
+
+.quicktech-orderdetails-cashon{
+    display: flex;
+    justify-content: space-between;
+}
+.quicktech-orderdetails-cashon h4{
+    font-size: 16px;
+    font-family: "Noto Sans", sans-serif;
+    font-weight: 400;
+}
+
+.progress-container {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    position: relative;
+}
+.progress-step {
+    width: 15%;
+    /* text-align: center; */
+    position: relative;
+}
+.progress-bar-custom {
+    position: absolute;
+    top: 12%;
+    left: 0;
+    right: 0;
+    height: 8px;
+    background: #e0e0e0;
+    z-index: 1;
+    width: 87%;
+}
+.progress-step::before {
+    content: '';
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: #e0e0e0;
+    display: inline-block;
+    z-index: 2;
+}
+.progress-step.active::before,
+.progress-step.completed::before {
+    background-color: #36BCCAFF;
+}
+.progress-step.active .progress-bar-fill,
+.progress-step.completed .progress-bar-fill {
+    background-color: #36BCCAFF;
+}
+.progress-bar-fill {
+    height: 8px;
+    background-color: #f76c6c;
+    width: 0%;
+    z-index: 3;
+    position: absolute;
+    top: 21%;
+    transform: translateY(-50%);
+}
+
+.progress-step span{
+   display: block;
+   font-size: 14px;
+    font-family: "Noto Sans", sans-serif;
+    font-weight: 400;
+}
+
+.quicktech-order-status p{
+    background-color: white;
+    padding: 10px 0;
+    font-size: 14px;
+    font-family: "Noto Sans", sans-serif;
+    font-weight: 400;
+}
+
+.quicktech-order-product{
+    background-color: white;
+}
+.quicktech-op{
+    border: none !important;
+}
+.quicktech-oppt h4{
+    font-size: 16px;
+  width: 157px;
+  font-family: "Noto Sans", sans-serif;
+  font-weight: 500;
+  color: #36BCCAFF;
+}
+.quicktech-od-head h4{
+    font-size: 20px;
+    font-family: "Noto Sans", sans-serif;
+    font-weight: 500;
+}
+.quicktech-s-content ul li{
+    font-size: 15px;
+    font-family: "Noto Sans", sans-serif;
+    font-weight: 400;
+}
+
+.order-details, .shipping-address, .total-summary {
+    margin-top: 20px;
+}
+.order-item img {
+    width: 50px;
+    height: 50px;
+    margin-right: 10px;
+}
+.summary-row {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 5px;
+}
+.total-row {
+    font-weight: bold;
+}
+
+.quicktech-del-after{
+    position: relative;
+}
+.quicktech-del-after::after{
+    position: absolute;
+    content: "";
+    left: 0;
+    bottom: -5px;
+    width: 100%;
+    height: 1px;
+    background-color: rgba(0, 0, 0, 0.05);
+}
+
+.quicktech-dis-col span{
+     color: #36BCCAFF ;
+}
+.summary-row span{
+    font-family: "Noto Sans", sans-serif;
+    font-weight: 400;
+}
+.quicktech-sub span{
+    font-family: "Noto Sans", sans-serif;
+    font-weight: 500;
+}
+.quicktech-due span{
+    color: red;
+}
+
+
+.card-product {
+    border: 1px solid #ddd;
+    padding: 15px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+}
+.card-product img {
+    max-width: 100%;
+}
+.price-range {
+    padding: 15px;
+    border: 1px solid #ddd;
+    margin-bottom: 20px;
+    border-radius: 10px;
+}
+.price-range h5{
+    font-family: "Noto Sans", sans-serif;
+    font-weight: 500;
+    font-size: 18px;
+}
+.quicktech-dis-dflex{
+    justify-content: space-between;
+}
+
+.quicktech-cat-drop h5{
+    font-family: "Noto Sans", sans-serif;
+    font-weight: 500;
+    font-size: 18px;
+    color: black;
+    padding-top: 10px;
+    
+}
+.quicktech-cat-drop p{
+    font-family: "Noto Sans", sans-serif;
+    font-weight: 500;
+    font-size: 18px;
+    color: black;
+    padding-top: 5px;
+}
+
+.quicktech-cat-drop{
+    justify-content: space-between;
+    /* position: relative; */
+
+}
+
+.quicktech-dis-label{
+    font-family: "Noto Sans", sans-serif !important;
+    font-weight: 400 !important;
+    font-size: 15px !important;
+    padding-bottom: 5px !important;
+}
+/* .quicktech-cat-drop::after{
+    position: absolute;
+    content: "";
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 1px;
+    background-color: rgba(0, 0, 0, 0.073);
+
+} */
+
+.quicktech-p-imgg{
+    background-color: rgba(54, 187, 202, 0.071);
+    height: 200px;
+}
+.breadcrumb-item{
+    font-family: "Noto Sans", sans-serif;
+    font-weight: 500;
+    font-size: 15px;
+    color: black;
+}
+.badge{
+    text-align: left !important;
+    font-family: "Noto Sans", sans-serif;
+    font-weight: 500;
+}
+
+.quicktech-catego-head h2{
+    font-family: "Noto Sans", sans-serif;
+    font-weight: 500;
+    font-size: 21px;
+}
+.quicktech-catego-head p{
+    font-family: "Noto Sans", sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+}
+
+.quicktech-produc-dd h5{
+    font-family: "Noto Sans", sans-serif;
+    font-weight: 500;
+    font-size: 17px;
+}
+.quicktech-produc-dd span{
+    font-family: "Noto Sans", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    color: black !important;
+}
+.quicktech-produc-dd s{
+    font-family: "Noto Sans", sans-serif;
+    font-weight: 500;
+    font-size: 15px;
+    color: rgba(0, 0, 0, 0.404);
+}
+
+.quicktech-cate-main{
+    position: relative;
+    height: 340px;
+}
+.quicktech-stock-out{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+.quicktech-stock-out p{
+    padding: 15px;
+    background-color: rgba(0, 0, 0, 0.457);
+    color: white;
+    font-family: "Noto Sans", sans-serif;
+    font-weight: 500;
+    font-size: 15px;
+}
+
+.quicktech-dis-main{
+    border: 1px solid rgba(0, 0, 0, 0.148);
+    border-radius: 0;
+}
+
+
+
+
+/* product details */
+.product-page {
+    padding: 20px;
+}
+.product-images {
+    display: flex;
+    flex-direction: column;
+}
+.product-main-image img {
+    width: 100%;
+    height: 350px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 5px;
+}
+.product-thumbnails {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+.product-thumbnails img {
+    width: 22%;
+    height: 80px;
+    cursor: pointer;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+.share-icons img {
+    width: 24px;
+
+    margin-right: 5px;
+    cursor: pointer;
+}
+.price-info {
+    font-size: 18px;
+    color: black;
+    font-family: "Noto Sans", sans-serif;
+    font-weight: 500;
+    color: black;
+}
+.quikctech-pd-col {
+    font-size: 23px;
+    color: #36BCCAFF !important;
+    font-family: "Noto Sans", sans-serif;
+    font-weight: 500;
+    color: black;
+    text-align: right;
+}
+.quikctech-pd-details{
+    font-family: "Noto Sans", sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+}
+.regular-price {
+    text-decoration: line-through;
+    font-size: 16px !important;
+    color: #888 !important;
+}
+.buttons {
+    margin-top: 20px;
+}
+.buttons .btn {
+    width: 48%;
+    margin-right: 2%;
+}
+.buttons .btn:last-child {
+    margin-right: 0;
+}
+.quicktech-productdetails-head h3{
+    font-family: "Noto Sans", sans-serif;
+    font-weight: 500;
+    font-size: 30px;
+    width: 450px;
+}
+.quicktech-pd-flex{
+    justify-content: space-between;
+}
+
+.quicktech-prodetals-main {
+	padding: 30px;
+	background-color: rgba(54, 187, 202, 0.05);
+	border-radius: 10px;
+    border: 1px solid #ddd;
+}
+.buttons button{
+    padding: 8px 15px;
+    background-color: white;
+    border: 1px solid #36BCCAFF;
+    border-radius: 10px;
+    color:#36BCCAFF ;
+    font-family: "Noto Sans", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+}
+.quicktech-whatsapp{
+    color: darkgreen;
+    font-family: "Noto Sans", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    text-decoration: none;
+    
+}
+.quicktech-whatsapp-bor{
+    border:1px solid darkgreen !important;
+}
+.quicktech-stock{
+    font-family: "Noto Sans", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+   padding-top: 20px;
+}
+.quicktech-stock-details p{
+    padding: 10px 10px;
+    background-color: white;
+    border-radius: 10px;
+    font-family: "Noto Sans", sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+}
+.quicktech-reviews-main{
+    background-color: white;
+    /* padding: 10px; */
+}
+.quicktech-reviews{
+background-color: white;
+padding: 15px;
+border-radius: 10px;
+}
+.quicktech-reviews h4{
+  font-size: 23px;
+  font-family: "Noto Sans", sans-serif;
+  font-weight: 600;
+}
+.quicktech-reviews p{
+    font-size: 15px;
+    font-family: "Noto Sans", sans-serif;
+    font-weight: 400;
+  }
+.quicktech-reviews i{
+    font-size: 25px;
+    padding-bottom: 10px;
+  }
+  .quicktech-price-label{
+    padding: 20px 25px;
+    background-color: white;
+    height: 98px;
+    border: 1px solid rgba(0, 0, 0, 0.146);
+    border-radius: 10px;
+  }
+  .quicktech-price-label label{
+    font-size: 17px;
+    font-family: "Noto Sans", sans-serif;
+    font-weight: 500;
+  }
+.quicktech-card{
+    color: black;
+    font-size: 15px;
+    font-family: "Noto Sans", sans-serif;
+    font-weight: 400;
+    padding-left: 12px;
+}
+.quicktech-b button{
+    padding: 10px 40px;
+    background-color: #36BCCAFF;
+    border: none;
+    color: white;
+    font-size: 20px;
+    border-radius: 10px;
+    font-family: "Noto Sans", sans-serif;
+    font-weight: 500;
+}
+.buy{
+    background-color: tomato !important;
+}
+.quikctech-pd-btnnn{
+    justify-content: space-between;
+    padding: 10px;
+    border: 1px solid #36BCCAFF;
+    background-color: white;
+    border-radius: 10px;
+}
+.quikctech-pd-btnnn button {
+	
+	background-color: #36BCCAFF;
+    color: white;
+    font-family: "Noto Sans", sans-serif;
+    font-weight: 500;
+    border: none;
+}
+.quantity-value{
+    font-family: "Noto Sans", sans-serif;
+    font-weight: 500;
+    color: #36BCCAFF;
+}
+/* product details */
+
+.accordion {
+    background-color: rgba(54, 187, 202, 0.244);
+    color: #444;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size: 15px;
+    transition: 0.4s;
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: "Noto Sans", sans-serif;
+    font-weight: 700;
+}
+
+.panel {
+    padding: 10px 18px;
+    display: block;
+    background-color: rgba(54, 187, 202, 0.05);
+    overflow: hidden;
+    font-family: "Noto Sans", sans-serif;
+    font-weight: 400;
+}
+.panel p{
+    position: relative;
+}
+.panel p::after{
+    position: absolute;
+    content: "";
+    bottom: -8px;
+    left: 0;
+    width: 100%;
+    height: 1px;
+    background-color: rgba(0, 0, 0, 0.055);
+}
+.accordion:after {
+    content: '\002B'; /* Unicode character for plus sign (+) */
+    font-size: 13px;
+    color: #777;
+    float: right;
+    margin-left: 5px;
+}
+.active:after {
+    content: "\2212"; /* Unicode character for minus sign (−) */
+}
+
+.quicktech-specc{
+    background-color: rgba(54, 187, 202, 0.05);
+    padding: 30px;
+    border-radius: 10px;
+}
+
+.quicktech-specc h2{
+    font-family: "Noto Sans", sans-serif;
+    font-weight: 600;
+    font-size: 23px;
+}
+
+
+/*  */
+
+.containerr {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    /* margin: 50px; */
+}
+
+.storage label {
+    margin-right: 10px;
+    font-family: "Noto Sans", sans-serif;
+    font-weight: 500;
+    font-size: 17px;
+}
+
+.storage, .color {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+    font-family: "Noto Sans", sans-serif;
+    font-weight: 500;
+    font-size: 17px;
+}
+
+.storage button {
+	border: 2px solid #36BCCAFF;
+	background-color: transparent;
+	color: #36BCCAFF;
+	padding: 5px 16px;
+	margin: 0 5px;
+	font-size: 1em;
+	cursor: pointer;
+	outline: none;
+	border-radius: 10px;
+}
+.storage .active::after {
+    content: "" !important;
+}
+.color-option .active::after {
+    content: "" !important;
+}
+.storage button.active {
+    background-color: #36BCCAFF;
+    color: white;
+}
+
+.color-option {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    border: 2px solid transparent;
+    margin: 0 5px;
+    cursor: pointer;
+    outline: none;
+}
+
+#color-1 { background-color: #bfb2a1; }
+#color-2 { background-color: #6b6765; }
+#color-3 { background-color: #f2e2c4; }
+#color-4 { background-color: #4a3b64; }
+
+.color-option.active {
+    border: 2px solid #36BCCAFF;
+}
+
+.quicktech-description-img img{
+    height: 270px;
+}
+
+.quicktech-desp{
+    padding: 30px;
+    border-radius: 10px;
+    border: 1px solid rgba(0, 0, 0, 0.126);
+}
+.quicktech-desp h2{
+    font-family: "Noto Sans", sans-serif;
+    font-weight: 600;
+    font-size: 23px;
+}
+
+.quicktech-des-text h3{
+    font-family: "Noto Sans", sans-serif;
+    font-weight: 600;
+    font-size: 27px;
+    padding-top: 10px;
+}
+.quicktech-des-text p{
+    font-family: "Noto Sans", sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+}
+.quicktech-why-choose li{
+    padding-bottom: 5px;
+    font-size: 15px;
+    font-family: "Noto Sans", sans-serif;
+    font-weight: 400;
+}
+.quicktech-th{
+    background-color: transparent !important;
+    font-size: 15px !important;
+    font-family: "Noto Sans", sans-serif !important;
+    font-weight: 500 !important;
+}
+.quicktech-tha{
+    color:#36BCCAFF;
+    font-family: "Noto Sans", sans-serif !important;
+    font-weight: 400 !important;
+}
+.quicktech-nav-bar {
+    height: 80px;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: white;
+    color: black;
+    text-align: center;
+    padding: 10px;
+    transition: transform 0.3s;
+    /* border-top:1px solid black ; */
+    box-shadow: 0px -1px 5px -1px rgba(0,0,0,0.75);
+-webkit-box-shadow: 0px -1px 5px -1px rgba(0,0,0,0.75);
+-moz-box-shadow: 0px -1px 5px -1px rgba(0,0,0,0.75);
+}
+.quicktech-bt-nv{
+    text-align: left !important;
+}
+.quicktech-bt-h h5{
+    font-family: "Noto Sans", sans-serif !important;
+    font-weight: 400 !important;
+    font-size: 20px;
+}
+.quicktech-bt-nv p{
+    font-family: "Noto Sans", sans-serif !important;
+    font-weight: 400 !important;
+    font-size: 17px;
+}
+
+.quicktechnv-img{
+    height: 63px;
+}
+
+.menu-bg {
+    display: none;
+    transform: translateY(100%);
+    transition: transform 0.4s;
+}
+
+.menu-bg.nav-bg {
+    display: block;
+    transform: translateY(0);
+}
+
+.tracking-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .tracking-form {
+    text-align: center;
+  }
+  .tracking-input {
+	padding: 15px 15px;
+	border-radius: 10px !important;
+	padding-right: 220px;
+}
+  .track-btn {
+    background-color: #36BCCAFF;
+    color: white;
+    border: none;
+    padding: 16px 25px ;
+    margin-left: 20px;
+    border-radius: 5px;
+    font-size: 18px;
+    font-family: "Noto Sans", sans-serif !important;
+    font-weight: 400 !important;
+  }
+
+  .quicktech-brandbanner img{
+    height: 260px;
+
+  }
+  .quicktech-brand-headd{
+    font-size: 20px;
+    font-family: "Noto Sans", sans-serif !important;
+    font-weight: 500 !important;
+  }
+
+  .quicktech-discover-brand img{
+    border-radius: 10px;
+    height: 80px;
+   
+
+}
+.quicktech-discover-brand{
+    box-shadow: 2px 2px 5px -4px rgba(0,0,0,0.73);
+    -webkit-box-shadow: 2px 2px 5px -4px rgba(0,0,0,0.73);
+    -moz-box-shadow: 2px 2px 5px -4px rgba(0,0,0,0.73);
+border-radius: 10px;
+}
+
+.contact-us h1{
+    font-size: 33px;
+    font-family: "Noto Sans", sans-serif !important;
+    font-weight: 500 !important;
+}
+.contact-us p{
+    font-size: 14px;
+    font-family: "Noto Sans", sans-serif !important;
+    font-weight: 400 !important;
+}
+.contact-us ul{
+    padding-bottom: 15px;
+}
+.contact-us ul li{
+    font-size: 14px;
+}
+
+
+
+.fixed-bottom-navbar {
+    background-color: #fff;
+    border-top: 1px solid #dee2e6;
+    width: 100%;
+}
+.sidebar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 250px;
+    background-color: #f4f8fb !important;
+    color: #fff;
+    transition: transform 0.3s ease;
+    transform: translateX(-100%);
+}
+.sidebar.show {
+    transform: translateX(0);
+}
+
+
+.quicktech-bottom-nav{
+    width: 100% !important;
+    justify-content: space-between;
+}
+
+.fixed-bottom{
+    display: none;
+}
+
+.quicktech-nav-menuu a{
+    color: black;
+    font-family: "Noto Sans", sans-serif !important;
+    font-weight: 400 !important;
+    cursor: pointer;
+    font-size: 13px;
+}
+.quicktech-tog i{
+    font-size: 13px;
+    cursor: pointer;
+}
+
+.quicktech-tog span{
+    color: black;
+    font-family: "Noto Sans", sans-serif !important;
+    font-weight: 400 !important;
+    cursor: pointer;
+    font-size: 13px;
+}
+
+.accordion {
+    background-color: #f4f8fb !important;
+    color: #444;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size: 15px;
+    transition: 0.4s;
+    margin-top: 10px;
+    display: block;
+    font-family: "Noto Sans", sans-serif;
+    font-weight: 700;
+}
+
+.accordion-button{
+    background-color: #f4f8fb !important;
+    border: 1px solid #f4f8fb !important;
+}
+.accordion-item{
+    border: none !important;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.201) !important;
+}
+
+.accordion-body{
+    background-color: #f4f8fb !important;
+
+}
+
+
+.quicktech-profile-btn{
+
+        background-color: transparent !important;
+        border: none !important;
+        /* margin-top: -7px; */
+        padding: 0 !important;
+        margin: 0 !important;
+    
+}
+.navbar-expand-lg .navbar-nav .dropdown-menu {
+	position: absolute;
+	left: -50px !important;
+	/* bottom: 0; */
+}
+.quicktech-mobile-nav-side{
+    padding-left: 20px;
+    padding-top: 10px;
+    background-color: #f4f8fb !important;
+}
+.quicktech-mobile-nav-side li{
+    padding-bottom: 5px;
+}
+.quicktech-mobile-nav-side li a{
+   color: black;
+   font-family: "Noto Sans", sans-serif;
+   font-weight: 400;
+}
+
+.quicktech-side-logo{
+    width: 67%;
+}
+
+.accordion-body{
+    padding: 0;
+}
+.ll{
+    display: none;
+}
+.quicktech-logoo {
+    display: flex;
+    align-items: center;
+}
+.search-input {
+    display: none;
+    margin-left: 10px;
+}
